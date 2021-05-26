@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+html, body{
+    background-color: #24026e;
+    height: 100%;
+}
+
+#navbar-bits{
+    justify-content: space-between;
+    display: flex;
+}
+
+#navbarSupportedContent{
+    justify-content: flex-end;
+}
+
+.wrapper{
+    min-height: calc(100% - 6rem);
+}
+
+h1{
+    text-align: left;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+
+span{
+    color: white;
+    margin-left: 2%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+select{
+    width: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.boton{
+    width: 40%; margin-left: 2%;
+}
+
+p{
+    color:white;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+#totalPedido{
+    margin-top: 3%;
+}
+
+#datosUsuario{
+    margin-top: 3%;
+}
